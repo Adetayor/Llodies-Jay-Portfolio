@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="forms2.css">
+  <title>Forms Exercise</title>
+</head>
+<body>
+  <header class="navbar">
+     <h1>TRAR OPTICAL CLINIC</h1>
+     <h4>Please Fill Out Your Preference</h4>
+     <nav class="toplinks">
+      <ul>
+          <li><a href="#myinfo">My Info</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+  </header>
+  <section>
+    <form action="/clp">
+    <div>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required minlength="4" maxlength="8" size="20" />
+   
+   
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required minlength="4" maxlength="8" size="20" />
+   </div>
+   <div>
+     <label for="email">Email Address:</label>
+     <input type="email" id="email" name="email" required minlength="20" maxlength="80" size="20" />
+
+     <label for="tel">Mobile Number:</label>
+     <input type="tel" name="tel" id="tel" size="15">
+   </div>
+   <div>
+    <label for="gender">Gender:</label>
+    <label for="gender1">Male</label>
+    <input type="checkbox" name="gender" id="gender1">
+    <label for="gender2">Female</label>
+    <input type="checkbox" name="gender" id="gender2">
+    <label for="gender3">I'd prefer not to say</label>
+    <input type="checkbox" name="gender" id="gender3">
+ </div><br>
+ <div>
+  <label for="size">What observation made you seek consultations?</label><br>
+  <label for="size1">Myopia</label>
+  <input type="radio" name="size" id="size1">
+  <label for="size2">Hypermetropia</label>
+  <input type="radio" name="size" id="size2">
+  <label for="size3">Astigmatism</label>
+  <input type="radio" name="size" id="size3">
+  <label for="size4">Presbyopia</label>
+  <input type="radio" name="size" id="size4">
+  <label for="size5">Cataract</label>
+  <input type="radio" name="size" id="size5">
+  <label for="size6">Itching</label>
+  <input type="radio" name="size" id="size6">
+</div><br>
+ <div>
+  <label for="size">Duration of Observation:-</label>
+  <ul>
+    <label for="size1">9 - 12 years ago</label>
+    <input type="radio" name="size" id="size1">
+    <label for="size2"> 6 - 9 years ago</label>
+    <input type="radio" name="size" id="size2">
+    <label for="size3">4 - 6 years ago</label>
+    <input type="radio" name="size" id="size3">
+    <label for="size4">2 - 4 years ago</label>
+    <input type="radio" name="size" id="size4"><br>
+    <label for="size5">1 - 2 years ago</label>
+    <input type="radio" name="size" id="size5">
+    <label for="size6">8 - 12 months ago</label>
+    <input type="radio" name="size" id="size6">
+    <label for="size7">5 - 8 months ago</label>
+    <input type="radio" name="size" id="size7">
+    <label for="size8">1 - 5 months ago</label>
+    <input type="radio" name="size" id="size8"><br>
+    <label for="size9">Less than a month ago</label>
+    <input type="radio" name="size" id="size9">
+</ul>
+</div>
+<div>
+  <h3>Pick the Most Identiable color</h3>
+  <label for="color1"> 1<sup>st</sup>Color:</label>
+  <input type="color" name="color" id="color1">
+  <label for="color2">2<sup>nd</sup>Color:</label>
+  <input type="color" name="color" id="color2">
+  <label for="color2">3<sup>rd</sup>Color:</label>
+  <input type="color" name="color" id="color2">
+</div>
+<div>
+  <label for="pattern">Desired Pattern for Glasses Frame:</label>
+  <input type="file" accept="image/*, text/*" name="file" id="pattern"/>
+</div>
+<div>
+  <label for="url"> Or Input Frame URL:</label>
+  <input type="url" name="url" id="url">
+</div>
+<div>
+  <label for="text">Decribe your Preferred Frame:</label>
+  <input type="text" name="text" id="text" min="10" max="150">
+</div>
+<div>
+  <label for="number">How many Glasses would you be Purchasing?</label>
+  <input type="number" name="number"/>
+</div>
+<div>
+  <label for="date">Delivery Date:</label>
+  <input type="date" name="date" id="date">
+  <label for="week">Delivery week:</label>
+  <input type="week" name="week" id="week">
+  <label for="time">Delivery Time:</label>
+  <input type="time" name="time" id="time">
+</div>
+<div>
+  <label for="date">Confirm Preferred Day/Time of Delivery:</label>
+  <!-- <input type="date" name="date" id="date"> -->
+  <input type="datetime-local" name="date" id="date">
+</div>
+<div>
+  <label for="password">Create Log-in Password :</label>
+  <input type="password" name="password" id="passwords">
+</div>
+<div>
+  <label for="reset">Made a mistake, Start over!</label>
+  <input type="reset" value="Reset">
+</div>
+<div>
+  <label for="range">Rate our Services:</label>
+  <input type="range" name="range" id="range" min="0" max="10">
+  <label for="comment">Leave a Comment:</label>
+  <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+</div>
+<input type="image" src="clear-eye-glasses.jpg" alt="Clear eye glasses on book"  height="100px">
+<input id="userId" name="userId" type="hidden" value="abc123">
+  
+ <div>
+  <input type="button" value="Submit" popovertarget>
+ </div> 
+  <label for="search">Search in page:</label>
+  <input type="search" name="search" id="search">
+
+</form>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+  background-color: #463d36;
+  color: white;
+  font-family: sans-serif;
+  padding: auto;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  margin: 100px auto;
+  border-radius: 20px;
+  width: 600px;
+}
+
+.container button {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #463d36;
+  color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #463d36;
+  margin-top: 0;
+}
+
+.container h2 {
+  font-size: 28px;
+  font-weight: Bold;
+  color: #a6192e;
+  margin-bottom: 0;
+}
+
+.container p {
+  font-size: 28px;
+  font-weight: lighter;
+  color: #463d36;
+  margin-bottom: 28px;
+}

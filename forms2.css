@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(147, 83, 207);
+  text-align: center;
+  border-radius: 6px;
+}
+h1{
+  display: inline-block;
+  font-weight: 500;
+  margin : 0 32px 0 0;
+}
+.toplinks{
+  display: inline-block;
+}
+.toplinks li{
+  display: inline-block;
+}
+.toplinks a{
+  
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 8px;
+}
+.toplinks ul{
+  padding: 0;
+}
+.navbar{
+  font-style: roboto, sans;
+  color: rgb(219, 215, 215);
+  margin: 32px;
+}
+
+section{
+  background: aliceblue;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+
+}
+
+label {
+ 
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 1rem 0;
+}
